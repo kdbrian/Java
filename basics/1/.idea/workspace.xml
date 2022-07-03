@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a71b4c6f-ad71-46da-b2d4-773e78b10734" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Android/Fith/fith11/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Android/Fith/fith11/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Android/Fith/try1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/Client-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/server/.idea/server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/server/out/production/server/.idea/server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/src/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/src/myFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/src/testClient1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/src/testServer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/src/thrd1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Client-server/src/threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hello$world.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keyWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myTry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/basics/.idea/basics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cryptography/.idea/Cryptography.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cryptography/out/production/Cryptography/.idea/Cryptography.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wildwebdeveloper.embedder.node/node-v16.13.0-win-x64/node_modules/npm/node_modules/clone/clone.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../concepts-1/concepts-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../one/one.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/.idea/server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/out/production/server/.idea/server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KickStart/.idea/KickStart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KickStart/out/production/KickStart/.idea/KickStart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Kotlin/.idea/Kotlin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQLite/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQLite/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQLite/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQLite/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQLite/.idea/render.experimental.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQLite/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQLite/app/src/main/java/com/example/sqlite/dbh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mongo-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/.gitIgnore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/Controllers/errorController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/Controllers/tourController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/Controllers/userController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/Routes/toursRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/Routes/userRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/config.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/import-dev-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/public/404.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/tours-simple.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/utils/apiFeatures.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mvc-1/utils/appError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test2/Controllers/tourController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test2/Controllers/userController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test2/Routes/toursRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test2/Routes/userRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test2/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test2/public/404.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test2/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test2/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test2/test2-wksp.code-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/androidTest/java/com/example/views/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/java/com/example/views/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/java/com/example/views/RCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/java/com/example/views/cards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/java/com/example/views/recCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/drawable-v24/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/drawable-v24/msg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/drawable/back.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/layout/activity_cards.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/layout/activity_rec_cards.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/app/src/test/java/com/example/views/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../views/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BRdlzm6BGDa8nz9m9eNjxWoY1P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/Change Language" value="JavaScript&#10;C++" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="C++" />
+  </component>
+  <component name="RunManager" selected="Application.keyWords">
+    <configuration name="conditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conditions" />
+      <module name="1.1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functions" />
+      <module name="1.1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="keyWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="keyWords" />
+      <module name="1.1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myTry" />
+      <module name="1.1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variables" />
+      <module name="1.1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.keyWords" />
+        <item itemvalue="Application.functions" />
+        <item itemvalue="Application.variables" />
+        <item itemvalue="Application.myTry" />
+        <item itemvalue="Application.conditions" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a71b4c6f-ad71-46da-b2d4-773e78b10734" name="Changes" comment="" />
+      <created>1656873001989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656873001989</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

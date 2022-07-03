@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de158e34-9691-4775-9929-7903940a74f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Android/Fith/fith11/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/Fith/fith11/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/Fith/try1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testClient1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testServer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thrd1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../morePractise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/.idea/render.experimental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/app/src/main/java/com/example/ytclone_1/Activities/SignInActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/app/src/main/java/com/example/ytclone_1/Activities/SignUpActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/app/src/main/res/drawable/background_img.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/app/src/main/res/drawable/input_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/app/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ytclone1/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cryptography/.idea/Cryptography.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cryptography/out/production/Cryptography/.idea/Cryptography.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KickStart/.idea/KickStart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KickStart/out/production/KickStart/.idea/KickStart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kotlin/.idea/Kotlin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SQLite/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SQLite/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SQLite/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SQLite/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SQLite/.idea/render.experimental.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SQLite/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SQLite/app/src/main/java/com/example/sqlite/dbh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mongo-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/.gitIgnore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/Controllers/errorController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/Controllers/tourController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/Controllers/userController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/Routes/toursRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/Routes/userRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/config.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/import-dev-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/public/404.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/tours-simple.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/utils/apiFeatures.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc-1/utils/appError.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/threads.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BCCdoD6pOnO8W7TNXxPclWZosf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.threads">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="Client-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myFiles" />
+      <module name="Client-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testClient1" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testClient1" />
+      <module name="Client-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testServer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testServer1" />
+      <module name="Client-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="threads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads" />
+      <module name="Client-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.testServer1" />
+      <item itemvalue="Application.testClient1" />
+      <item itemvalue="Application.myFiles" />
+      <item itemvalue="Application.threads" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.threads" />
+        <item itemvalue="Application.myFiles" />
+        <item itemvalue="Application.testClient1" />
+        <item itemvalue="Application.testServer1" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de158e34-9691-4775-9929-7903940a74f3" name="Changes" comment="" />
+      <created>1656400782900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656400782900</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

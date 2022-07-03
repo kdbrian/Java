@@ -1,0 +1,2 @@
+Hello i am the input text
+i jus got a newLine
