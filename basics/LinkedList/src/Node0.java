@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class Node {
+public class Node0 {
+
+    Integer data;
+
+    Node0(){
+
+    }
 }

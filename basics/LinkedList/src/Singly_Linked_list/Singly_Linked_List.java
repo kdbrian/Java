@@ -1,3 +1,7 @@
+package Singly_Linked_list;
+
+import java.util.Scanner;
+
 public class Singly_Linked_List {
 
     public static void main(String[] args) {
@@ -5,7 +9,7 @@ public class Singly_Linked_List {
         // implementation of a singly linked list
 
         /**
-         *  head -> node_1 -> node_n -> null;
+         * head -> node_1 -> node_n -> null;
          * */
 
         //the head of the list
@@ -29,9 +33,27 @@ public class Singly_Linked_List {
         // printing the linked list
         head.printList();
 
+        // getting a search value from the user and searching for it
+//        Scanner scanner=new Scanner(System.in);
+//        System.out.print("Enter value to search for : ");
+//        String valStr= scanner.nextLine();
+//        scanner.close();
+
+//        int val= Integer.parseInt(valStr);
+
+        System.out.println(head.searchFor(2) == 1?"found":"not found");
+        Node test = head.searchForNode(3);
+
+
+        System.out.println(test);
+
     }
 
 }
+
+/***
+ * Representation of a logical node in a linked list
+ */
 class Node{
 
     //pointing to the next node
@@ -65,14 +87,18 @@ class Node{
         //return noNodes;
     }
 
+    /***
+     *
+     * @return {int representing the number of nodes}
+     */
     public static int getNoNodes() {
         return noNodes;
     }
 
     /**
      * Function to print the linked list
-     * @returns {* void}
-     * @params {* none}
+     * @returns {void}
+     * @params {none}
      * */
     public  void printList(){
         //pointing to current node
@@ -94,11 +120,75 @@ class Node{
             curr=curr.next;
 
             if(curr==null) {
-                System.out.println("\n#");
+                System.out.println("\nReached end");
                 return;
             }
 
         }
+    }
+
+    /**
+     * Function to treverse the list
+     * @params {the value to search for integer in this case}
+     */
+    public int searchFor(int val){
+
+        //changing pointer to the first node
+        Node curr=this.next;
+
+        while(curr != null){
+
+            if (curr.data.equals(val)) {
+                return 1;
+            }
+
+            curr=curr.next;
+        }
+
+        return -1;
+    }
+
+    /****
+     *
+     * @param val
+     * @return {node  with the specified value}
+     */
+    public Node searchForNode(int val){
+
+        // pointing to the node after the head
+        Node curr=this.next;
+
+        while(curr != null){
+
+            if (curr.data.equals(val)) {
+                return curr;
+            }
+
+            curr=curr.next;
+        }
+        return null;
+    }
+
+    /***
+     *
+     * @param {node to be deleted}
+     * @return {1 for success -1 failed}
+     */
+    public static int deleteNode(Node n){
+        // search for the node
+        if(n==null){
+            System.out.println("Error cannot find node");
+        }
+
+        // set previous pointer to the next node
+//        Node prev=n.
+
+        //set current node to null
+
+        // return 1(true)
+
+        // otherwise return -1(false)
+        return -1;
     }
 }
 
