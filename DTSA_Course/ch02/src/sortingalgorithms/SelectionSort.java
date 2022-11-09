@@ -15,15 +15,15 @@ public class SelectionSort {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int nums1[]= {2,0,4,9,-1};
-		System.out.println("Original : ");
+		System.out.print("Original : ");
 		print_arry(nums1);
 		selection_sort(nums1, nums1.length);
-		System.out.println("Sorted : ");
+		System.out.print("Sorted : ");
 		print_arry(nums1);
 		
 	}
 
-	static void print_arry(int nums[]) {
+	public static void print_arry(int nums[]) {
 		//System.out.println();
 		for (int i = 0; i < nums.length; i++)
 			System.out.print(nums[i]+" ");
@@ -48,9 +48,9 @@ public class SelectionSort {
 					int temp= nums[i];
 					nums[i]=nums[pos];
 					nums[pos]=temp;
-				
+				//print_arry(nums);
 			}
-			
+			//print_arry(nums);
 		}
 		
 	}
