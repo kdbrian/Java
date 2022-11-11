@@ -16,7 +16,6 @@ public class BubbleSort {
 		// TODO Auto-generated method stub
 
 		int nums1[]= {2,0,4,9,-1};
-		//int nums2[]= {-1,0,2,4,9};
 		print_arry(nums1);
 		sort(nums1, nums1.length);
 		print_arry(nums1);
