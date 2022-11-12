@@ -378,5 +378,7 @@ public class LinkedList {
 //		System.out.println("After deleting : "+list.deleteAny(3));
 //		list.display();
 //		System.out.println("Found 20 at index : "+ list.search(200));
+		
+		
 	}
 }
