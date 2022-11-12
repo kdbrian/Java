@@ -131,6 +131,87 @@ public class LinkedList {
 	}
 	
 	/***
+	 * A method to insert an element at a specified position in the linked list
+	 * @param e the element to be inserted
+	 * @param position the position to insert the element
+	 * Complexity = O(n)
+	 */
+	public void insertAt(int e,int position) {
+		//if the position is invalid
+		if (position<=0 || position>=size) {
+			System.err.println("Invalid position");
+			return;
+		}
+		
+		Node newNode = new Node(e, null);
+		
+		Node currNode = head; //for traversing
+		
+		int i=1;
+		
+		while (i<position-1) {
+			currNode  = currNode.link;
+			i++;
+		}
+		
+		newNode.link=currNode.link;
+		currNode.link=newNode;
+		size++;
+	}
+	
+	/***
+	 * Function to remove the first element from the list
+	 * @return
+	 */
+	public int removeFirst() {
+		
+		if (isEmpty()) {
+			System.err.println("Empty list");
+			return -1;
+		}
+			
+			int el =head.element;
+			
+			head = head.link;
+			
+			size --;
+		
+		if (isEmpty()) 
+			tail=null;
+		
+		return el;
+		
+	}
+	
+	public int pop() {
+		
+		if(isEmpty()) {
+			System.err.println("Empty list");
+			return -1;
+		}
+		
+		Node currNode = head;
+		int i=1;
+		
+		while (i<size -1) {
+			currNode = currNode.link;
+			i++;
+		}
+		tail=currNode;
+		
+		currNode = currNode.link;
+		
+		int el = currNode.element;
+		
+		tail.link=null;
+		
+		size--;
+		
+		return el;
+		
+	}
+	
+	/***
 	 * A method to display the contents of the linked list
 	 */
 	public void display() {
@@ -150,6 +231,7 @@ public class LinkedList {
 		
 		LinkedList list = new LinkedList();
 		
+		// insertion operation
 		list.addLast(10);
 		list.addLast(20);
 		list.addLast(30);
@@ -163,6 +245,27 @@ public class LinkedList {
 		
 		list.addFirst(-1);
 		System.out.println("After inserting -1 at the beggining");
+		list.display();
+		
+		
+		list.insertAt(222, 3);
+		System.out.println("After inserting 222 at the position 3");
+		list.display();
+		
+		list.insertAt(90, 5);
+		list.display();
+		
+		// deletion operation
+		System.out.println("Deleted "+list.removeFirst());
+		list.display();
+		
+		System.out.println("Deleted "+list.removeFirst());
+		list.display();
+		
+		System.out.println("Deleted "+list.pop());
+		list.display();
+		
+		System.out.println("Deleted "+list.pop());
 		list.display();
 	}
 }
