@@ -3,7 +3,6 @@
  */
 package ch01.examplesofrecursion;
 
-import java.util.Iterator;
 
 /**
  * @author ultimate
