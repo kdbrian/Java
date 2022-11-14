@@ -38,6 +38,7 @@ public class Main {
 		*/
 		// initializes a stack(linkedlist) of 5 elements
 		StackLinkedList list = new StackLinkedList();
+		System.out.println("Popped : "+list.pop());
 		System.out.println("isEmpty() : "+list.isEmpty());
 		System.out.println("Length : "+list.length());
 		list.push(10);
