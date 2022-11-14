@@ -151,6 +151,88 @@ public class CircularLinkedList {
 	}
 	
 	/***
+	 * A method to delete a node at the {@link #head} of the list
+	 * @return e the element that has been removed
+	 */
+	private int removeFirst() {
+		
+		if (isEmpty()) {
+			System.err.println("List is empty");
+			return -1;
+		}
+		int el =head.element;
+		
+		tail.link=head.link;
+		head=head.link;
+		size--;
+		
+		// if the list had only one element
+		if(isEmpty())
+			tail=head=null;
+		
+		
+		return el;
+		
+	}
+	
+	
+	/***
+	 * a method to remove an element from the last position/end of a linkedlist
+	 * @return e the element that has beeen deleted
+	 */
+	public int pop() {
+		
+		if (isEmpty()) {
+			System.err.println("List is empty");
+			return -1;
+		}
+		
+		Node currNode = head;
+		int i=1;
+		
+		while(i<getSize()-1) {
+			currNode=currNode.link;
+			i++;
+		}
+		
+		int el= currNode.link.element;
+		
+		tail=currNode;
+		tail.link=head;
+		size--;
+		
+		return el;
+	}
+	
+	/***
+	 * method to delete a node at an arbitrary position in the list
+	 * @param position the position of the node to delete
+	 * @return the deleted nodes element
+	 */
+	public int deleteAny(int position) {
+		
+		if(isEmpty() || position>getSize() || position<= 0) {
+			System.err.println("Invalid position");
+			return -1;
+		}
+		
+		Node currNode=head;
+		int i=1;
+		
+		while(i<position-1) {
+			currNode=currNode.link;
+			i++;
+		}
+		
+		int el = currNode.link.element;
+		
+		currNode.link=currNode.link.link;
+		size--;
+		
+		return el;
+	}
+	
+	/***
 	 * A method to display the contents of a circular linked list
 	 */
 	public void display() {
@@ -174,9 +256,6 @@ public class CircularLinkedList {
 	
 	
 	
-	
-	
-	
 	public static void main(String[] args) {
 		
 		CircularLinkedList list = new CircularLinkedList();
@@ -186,10 +265,18 @@ public class CircularLinkedList {
 		list.addLast(-1);
 		list.addLast(50);
 		list.addFirst(0);
-		list.display();
 		list.addAny(40,4);
+		
 		System.out.println("After inserting 40 at position 4");
 		list.display();
 		
+		System.out.println("Removed element : "+list.removeFirst());
+		list.display();
+		
+		System.out.println("Removed element : "+list.pop());
+		list.display();
+		
+		System.out.println("Removed element : "+list.deleteAny(3)+" at position 3");
+		list.display();
 	}
 }
