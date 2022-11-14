@@ -3,7 +3,6 @@
  */
 package ch06.stacks;
 
-import javax.crypto.interfaces.DHPublicKey;
 
 /**
  * @author ultimate
