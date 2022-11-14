@@ -107,7 +107,8 @@ public class DoublyLinkedList {
 	}
 	
 	/***
-	 * @return el the deleted element
+	 * a method to delete the first element of the list
+	 * @return el the deleted node element
 	 */
 	public int deleteFirst() {
 		
@@ -130,6 +131,57 @@ public class DoublyLinkedList {
 		
 		return el;
 	}
+	
+	
+	/***
+	 * A method to delete the last node of the list
+	 * @return e the deleted node element
+	 */
+	public int pop() {
+		
+		if (isEmpty()) {
+			System.err.println("List is Empty");
+			return -1;
+		}
+		
+		int el = tail.getElement();
+		
+		tail = tail.getPrev();
+		tail.setNext(null);
+		size --;
+		
+		return el;
+	}
+	
+	/***
+	 * 
+	 * @param position the position of the node to delete
+	 * @return the value stored by the deleted node
+	 */
+	public int deleteAny(int position) {
+		
+		if(position <= 0 || position >=size || isEmpty()) {
+			System.err.println("List is empty");
+			return -1;
+		}
+		
+		Node currNode = head;
+		int i=1;
+		
+		while (i<position-1) {
+			currNode=currNode.getNext();
+			i++;
+		}
+		
+		int el = currNode.getNext().getElement();
+		
+		currNode.setNext(currNode.getNext().getNext());
+		currNode.getNext().setPrev(currNode);
+		size--;
+		
+		return el;
+	}
+	
 	
 	/***
 	 * A function to display the contents of a list
