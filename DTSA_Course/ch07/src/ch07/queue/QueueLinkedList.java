@@ -15,8 +15,8 @@ public class QueueLinkedList {
 		
 		public Node(int data, Node next) {
 			// TODO Auto-generated constructor stub
-			data=data;
-			next=next;
+			this.data=data;
+			this.next=next;
 		}
 		
 	}
@@ -86,5 +86,15 @@ public class QueueLinkedList {
 			currNode=currNode.next;
 		}
 		System.out.println();
+	}
+
+	public int front() {
+		// TODO Auto-generated method stub
+		return front.data;
+	}
+
+	public int rear() {
+		// TODO Auto-generated method stub
+		return rear.data;
 	}
 }
