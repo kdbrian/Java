@@ -29,6 +29,16 @@ public class Main {
 		System.out.println("After deleting "+list.deleteFirst());
 		list.display();
 		
+		//deleting last element
+		System.out.println("After deleting "+list.pop());
+		list.display();
+		
+		list.addFirst(10);
+		list.display();
+		
+		System.out.println("Removed element : "+list.deleteAny(3));
+		list.display();
+		
 	}
 
 }
