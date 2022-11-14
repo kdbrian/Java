@@ -37,6 +37,7 @@ public class Main {
 		System.out.println("Length : "+queue.length());
 		*/
 		
+		/*
 		DoubleQueue queue = new DoubleQueue();
 		
 		queue.addFirst(10);
@@ -49,6 +50,7 @@ public class Main {
 		System.out.println("Remove first : "+queue.removeFirst());
 		System.out.println("Remove last : "+queue.removeLast());
 		queue.display();
+		*/
 		
 	}
 
