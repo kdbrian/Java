@@ -37,6 +37,7 @@ public class Main {
 		stack.display();
 		*/
 		// initializes a stack(linkedlist) of 5 elements
+		/*
 		StackLinkedList list = new StackLinkedList();
 		System.out.println("Popped : "+list.pop());
 		System.out.println("isEmpty() : "+list.isEmpty());
@@ -52,6 +53,7 @@ public class Main {
 		list.display();
 		System.out.println("Deleted : "+list.pop());
 		list.display();
+		*/
 		
 	}
 
