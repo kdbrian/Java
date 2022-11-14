@@ -89,9 +89,25 @@ public class QueueArrays {
 		return el;
 	}
 	
+	/***
+	 * Function to retrieve first element of the queue
+	 * @return 
+	 */
+	public int front() {
+		return data[front];
+	}
+	
+	/***
+	 * Function to retrieve last element of the queue
+	 * @return 
+	 */
+	public int rear() {
+		return data[rear];
+	}
+	
 	public void display() {
-		for (int i = 0; i < rear; i++) {
-			System.out.println(data[i]+"-");
+		for (int i = front; i < rear; i++) {
+			System.out.print(data[i]+"-");
 		}
 		System.out.println();
 	}
