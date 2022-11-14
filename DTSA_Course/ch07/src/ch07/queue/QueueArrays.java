@@ -85,7 +85,7 @@ public class QueueArrays {
 		int el = data[front];
 		
 		front ++; 
-		
+		size--;
 		return el;
 	}
 	
