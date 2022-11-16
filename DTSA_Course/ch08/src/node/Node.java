@@ -39,21 +39,21 @@ public class Node {
 	}
 
 	/**
-	 * @param left the left to set
+	 * @param left the node left to set
 	 */
 	public void setLeft(Node left) {
 		this.left = left;
 	}
 
 	/**
-	 * @return the right
+	 * @return the right node
 	 */
 	public Node getRight() {
 		return right;
 	}
 
 	/**
-	 * @param right the right to set
+	 * @param right the right node to set
 	 */
 	public void setRight(Node right) {
 		this.right = right;
