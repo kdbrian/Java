@@ -129,4 +129,18 @@ public class BinarySearchTree {
 		}
 	}
 	
+	
+	/***
+	 * a method to print a {@link #BinarySearchTree()} in postorder traversal
+	 * visit left subtree,visit right subtree, visit root 
+	 * @param troot
+	 */
+	public void postorder(Node troot) {
+		
+		if(troot != null) {
+			postorder(troot.getLeft());//visit left subtree
+			postorder(troot.getRight());//visit right subtree
+			System.out.print(troot.getElement()+" ");//print element at root
+		}
+	}
 }
