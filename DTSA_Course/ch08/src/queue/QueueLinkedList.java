@@ -11,10 +11,10 @@ package queue;
 public class QueueLinkedList {
 
 	class Node{
-		private int data;
+		private Object data;
 		private Node next;
 		
-		public Node(int data, Node next) {
+		public Node(Object data, Node next) {
 			// TODO Auto-generated constructor stub
 			this.data=data;
 			this.next=next;
@@ -42,7 +42,7 @@ public class QueueLinkedList {
 		return size==0;
 	}
 	
-	public void enqueue(int e) {
+	public void enqueue(Object e) {
 		Node newNode = new Node(e, null);
 		
 		if(isEmpty()) {
@@ -56,14 +56,14 @@ public class QueueLinkedList {
 		size++;
 	}
 	
-	public int dequeue() {
+	public Object dequeue() {
 		
 		if (isEmpty()) {
 			System.out.println("List is empty");
 			return -1;
 		}
 		
-		int el = front.data;
+		Object el = front.data;
 		
 		front=	front.next;
 		size--;
