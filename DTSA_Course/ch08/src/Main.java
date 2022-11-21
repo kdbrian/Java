@@ -39,6 +39,8 @@ public class Main {
 		tree.inorder(tree.getRoot());
 		System.out.println("\nPreorder");
 		tree.preorder(tree.getRoot());
+		System.out.println("\nPostorder");
+		tree.postorder(tree.getRoot());
 		
 	}
 
