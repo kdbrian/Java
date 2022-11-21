@@ -84,6 +84,13 @@ public class BinarySearchTree {
 		//System.out.println();
 	}
 	
+	/**
+	 * @param root the root to set
+	 */
+	public void setRoot(Node root) {
+		this.root = root;
+	}
+
 	/***
 	 * a method to insert an element into the binary tree using recursion
 	 * @param temproot the reference to the root of the tree
@@ -106,6 +113,20 @@ public class BinarySearchTree {
 		}
 		
 		return temproot;
+	}
+	
+	/***
+	 * a method to print a {@link #BinarySearchTree()} in preorder traversal
+	 * visit root, visit left subtree,visit right subtree
+	 * @param troot
+	 */
+	public void preorder(Node troot) {
+		
+		if(troot != null) {
+			System.out.print(troot.getElement()+" ");
+			preorder(troot.getLeft());//visit left subtree
+			preorder(troot.getRight());//visit right subtree
+		}
 	}
 	
 }
