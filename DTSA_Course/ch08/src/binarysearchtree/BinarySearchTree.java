@@ -4,6 +4,7 @@
 package binarysearchtree;
 
 import node.Node;
+import queue.QueueLinkedList;
 
 /**
  * @author ultimate
@@ -142,5 +143,35 @@ public class BinarySearchTree {
 			postorder(troot.getRight());//visit right subtree
 			System.out.print(troot.getElement()+" ");//print element at root
 		}
+	}
+	
+	
+	/***
+	 * a method to print a {@link #BinarySearchTree()} in levelorder traversal
+	 * visit and print node within the same level from left to right 
+	 * 
+	 */
+	public void levelorder() {
+		
+		QueueLinkedList queue = new QueueLinkedList();//to keep track of the visited nodes
+		Node troot=this.getRoot();
+		System.out.print(troot.getElement()+" ");
+		queue.enqueue(troot);
+		
+		while(! queue.isEmpty()) {
+			troot = (Node) queue.dequeue();
+			
+			//start printing from the left if there is a child
+			if (troot.getLeft() != null) {
+				System.out.print(troot.getLeft().getElement()+" ");
+				queue.enqueue(troot.getLeft());
+			}
+			
+			if(troot.getRight() != null) {
+				System.out.print(troot.getRight().getElement()+" ");
+				queue.enqueue(troot.getRight());
+			}
+		}
+		
 	}
 }
