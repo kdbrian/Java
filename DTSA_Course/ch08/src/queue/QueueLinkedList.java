@@ -89,12 +89,12 @@ public class QueueLinkedList {
 		System.out.println();
 	}
 
-	public int front() {
+	public Object front() {
 		// TODO Auto-generated method stub
 		return front.data;
 	}
 
-	public int rear() {
+	public Object rear() {
 		// TODO Auto-generated method stub
 		return rear.data;
 	}
