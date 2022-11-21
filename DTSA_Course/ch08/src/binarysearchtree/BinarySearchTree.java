@@ -174,4 +174,25 @@ public class BinarySearchTree {
 		}
 		
 	}
+	
+	/***
+	 * an iterative method to search for an element in a binary search tree
+	 * @param key the key to be searched for
+	 * @return true if the key is found and false otherwise
+	 */
+	public boolean search(int key) {
+		
+		Node temp = this.getRoot();
+		
+		while(temp != null) {
+			
+			if(key == temp.getElement())
+				return true;
+			else if(key<temp.getElement())//search left subtree
+				temp = temp.getLeft();
+			else if(key>temp.getElement())//search the right subtree
+				temp=temp.getRight();
+		}
+		return false;
+	}
 }
