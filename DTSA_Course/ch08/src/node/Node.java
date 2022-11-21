@@ -16,6 +16,12 @@ public class Node {
 	public Node() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public Node(int e,Node left,Node right) {
+		this.element=e;
+		this.left=left;
+		this.right=right;
+	}
 
 	/**
 	 * @return the element
