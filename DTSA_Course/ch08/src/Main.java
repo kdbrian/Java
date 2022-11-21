@@ -40,6 +40,8 @@ public class Main {
 		tree.preorder(tree.getRoot());
 		System.out.println("\nPostorder");
 		tree.postorder(tree.getRoot());
+		System.out.println("\nLevelorder");
+		tree.levelorder();
 		
 	}
 
