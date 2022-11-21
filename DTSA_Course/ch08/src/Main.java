@@ -28,8 +28,8 @@ public class Main {
 		tree.insert(tree.getRoot(), 20);
 		tree.insert(tree.getRoot(), 30);
 		tree.insert(tree.getRoot(), -1);
-		tree.inorder(tree.getRoot());
-		System.out.println();
+		//tree.inorder(tree.getRoot());
+		//System.out.println();
 		tree.rinsert(tree.getRoot(), 90);
 		tree.rinsert(tree.getRoot(), 88);
 		tree.insert(tree.getRoot(), -2);
