@@ -43,10 +43,16 @@ public class Main {
 		System.out.println("\nLevelorder");
 		tree.levelorder();
 		System.out.println();
+		System.out.println("Iterative search");
 		System.out.println("search key = 101 :-"+tree.search(101));
 		System.out.println("search key = 90 :-"+tree.search(90));
 		System.out.println("search key = 9 :-"+tree.search(9));
-		
+		System.out.println();
+		System.out.println("Recursive search");
+		System.out.println("search key = 101 :-"+tree.rsearch(tree.getRoot(),101));
+		System.out.println("search key = 90 :-"+tree.rsearch(tree.getRoot(),90));
+		System.out.println("search key = 9 :-"+tree.rsearch(tree.getRoot(),9));
+		System.out.println();
 	}
 
 }
