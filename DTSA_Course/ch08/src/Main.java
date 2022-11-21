@@ -42,6 +42,10 @@ public class Main {
 		tree.postorder(tree.getRoot());
 		System.out.println("\nLevelorder");
 		tree.levelorder();
+		System.out.println();
+		System.out.println("search key = 101 :-"+tree.search(101));
+		System.out.println("search key = 90 :-"+tree.search(90));
+		System.out.println("search key = 9 :-"+tree.search(9));
 		
 	}
 
