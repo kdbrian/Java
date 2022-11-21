@@ -195,4 +195,30 @@ public class BinarySearchTree {
 		}
 		return false;
 	}
+	
+	
+	/***
+	 * a recursive method to search for an element in a binary search tree
+	 * @param key the key to be searched for
+	 * @return true if the key is found and false otherwise
+	 */
+	public boolean rsearch(Node troot,int key) {
+		
+		if (troot != null) {
+			
+			if(troot.getElement() == key)
+				return true;
+			
+			//search left subtree
+			else if(key < troot.getElement())
+				return rsearch(troot.getLeft(), key);
+			
+			//search right subtree
+			else if(key > troot.getElement())
+				return rsearch(troot.getRight(), key);
+				
+		}
+		
+		return false;
+	}
 }
