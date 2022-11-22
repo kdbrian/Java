@@ -221,4 +221,69 @@ public class BinarySearchTree {
 		
 		return false;
 	}
+	
+	/***
+	 * a method to delete a node from a {@link #BinarySearchTree()}
+	 * @param key the element stored in the node to be deleted
+	 * @return true if operation was successful and false otherwise
+	 */
+	public boolean delete(int key) {
+		
+		//to be used for traversal and searching
+		Node currNode = this.getRoot();
+		
+		/// will be used to point to the parent of the node being deleted
+		Node parentNode = null;
+		
+		//traverse till the node before the one being deleted
+		while (currNode != null && currNode.getElement() != key) {
+			
+			parentNode=currNode;
+			
+			if(currNode.getElement()>key)
+				currNode = currNode.getLeft();
+			else if (currNode.getElement()<key)
+				currNode=currNode.getRight();
+			
+		}
+		
+		if(currNode == null)
+			return false;
+		
+		//checking if the node has left/right subtree
+		if(currNode.getLeft() != null && currNode.getRight() != null) {
+			
+			//to be used for selecting largest element from left subtree
+			Node s = currNode.getLeft();
+			Node ps = currNode;
+			
+			while(s.getRight() != null) {
+				ps=s;
+				s=s.getRight();
+			}
+			
+			//reassigning values
+			currNode.setElement(s.getElement());
+			currNode=s;
+			parentNode = ps;
+		}
+		
+		Node c = null;
+		
+		if (currNode.getLeft() != null)
+			c=currNode.getLeft();
+		else
+			c=currNode.getRight();
+		
+		if(currNode == root)
+			root=null;
+		
+		else 
+			if(currNode == parentNode.getLeft())
+				parentNode.setLeft(c);
+			else
+				parentNode.setRight(c);
+		
+		return true;
+	}
 }

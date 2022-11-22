@@ -53,6 +53,11 @@ public class Main {
 		System.out.println("search key = 90 :-"+tree.rsearch(tree.getRoot(),90));
 		System.out.println("search key = 9 :-"+tree.rsearch(tree.getRoot(),9));
 		System.out.println();
+		tree.inorder(tree.getRoot());
+		tree.delete(88);
+		System.out.println();
+		tree.inorder(tree.getRoot());
+		
 	}
 
 }
