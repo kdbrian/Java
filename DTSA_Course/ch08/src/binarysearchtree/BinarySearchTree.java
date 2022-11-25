@@ -286,4 +286,18 @@ public class BinarySearchTree {
 		
 		return true;
 	}
+	
+	/***
+	 * a method to count the number of nodes in a binary search tree
+	 * @param troot the reference to the root of the tree
+	 * @return n numbe of nodes or -1 if there are no nodes in the tree
+	 */
+	public int count(Node troot) {
+		
+		if(troot!=null) {
+			
+		}
+		
+		return -1;
+	}
 }
