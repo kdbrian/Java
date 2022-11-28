@@ -290,14 +290,16 @@ public class BinarySearchTree {
 	/***
 	 * a method to count the number of nodes in a binary search tree
 	 * @param troot the reference to the root of the tree
-	 * @return n numbe of nodes or -1 if there are no nodes in the tree
+	 * @return n number of nodes or -1 if there are no nodes in the tree
 	 */
 	public int count(Node troot) {
-		
+		int x,y;
 		if(troot!=null) {
-			
+			x=count(troot.getLeft());
+			y=count(troot.getRight());
+			return x+y+1;
 		}
 		
-		return -1;
+		return 0;
 	}
 }
