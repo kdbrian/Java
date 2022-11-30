@@ -29,12 +29,12 @@ public class Main {
 		tree.insert(tree.getRoot(), -1);
 		//tree.inorder(tree.getRoot());
 		//System.out.println();
-		tree.rinsert(tree.getRoot(), 90);
-		tree.rinsert(tree.getRoot(), 88);
+//		tree.rinsert(tree.getRoot(), 90);
+//		tree.rinsert(tree.getRoot(), 88);
 		tree.insert(tree.getRoot(), -2);
 		tree.insert(tree.getRoot(), 5);
 		tree.insert(tree.getRoot(), 15);
-		tree.insert(tree.getRoot(), 101);
+		//tree.insert(tree.getRoot(), 101);
 		tree.inorder(tree.getRoot());
 		System.out.println("\nPreorder");
 		tree.preorder(tree.getRoot());
@@ -60,7 +60,8 @@ public class Main {
 		tree.inorder(tree.getRoot());
 		System.out.println();
 		System.out.println("Number of nodes are : "+tree.count(tree.getRoot()));
-		System.out.println(1>1);
+		System.out.println("The height of the tree is : "+(tree.height(tree.getRoot())-1));
+		//System.out.println(tree.getRoot().getRight().getLeft().getElement());
 	}
 
 }
