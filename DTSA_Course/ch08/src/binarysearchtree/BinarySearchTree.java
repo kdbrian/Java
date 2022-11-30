@@ -308,22 +308,25 @@ public class BinarySearchTree {
 	 * a method to get the height of a binary search tree
 	 * @param troot the reference to the root of the tree
 	 * @return h the height of the tree or 0 otherwise
-	 * <h1>Note : We subtract 1 from the final value since we add one in the comparisons</h1>
+	 * <h1>Note : We subtract 1 from the final value since we add one in the comparisons.<br>
+	 * 			  Works only for full binary trees i.e. Leaf nodes are at the same level and
+	 * 			  each internal node has exactly 2 children</h1>
 	 */
 	public int height(Node troot) {
 		
-		if(troot == null)
-			return 0;
+		if(troot != null) {
 		
-		int x,y;
+			int x=height(troot.getLeft());
+			int y=height(troot.getRight());
+			
+			//checking if left s.tree is greater than right s.tree
+			if(x>y)
+				return x+1;
+			else 
+				return y+1;
+		}
 		
-		x=height(troot.getLeft());
-		y=height(troot.getRight());
-		//checking if left s.tree is greater than right s.tree
-		if(x>y)
-			return x+1;
-		else 
-			return y+1;
+		return 0;
 		
 	}
 }
