@@ -54,13 +54,13 @@ public class Main {
 		System.out.println("search key = 9 :-"+tree.rsearch(tree.getRoot(),9));
 		System.out.println();
 		tree.inorder(tree.getRoot());
+		System.out.println("Number of nodes are : "+tree.count(tree.getRoot()));
 		tree.delete(88);
 		System.out.println();
 		tree.inorder(tree.getRoot());
 		System.out.println();
 		System.out.println("Number of nodes are : "+tree.count(tree.getRoot()));
-		
-		
+		System.out.println(1>1);
 	}
 
 }
