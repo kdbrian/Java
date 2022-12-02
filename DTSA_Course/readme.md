@@ -86,7 +86,10 @@
             <td>Stacks</td>
             <td>ch06</td>
             <td>
-                <a href=""></a>
+                 <ul>
+                      <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch06/src/ch06/stacks/StackArrays.java">Arrays Implementation</a></li>
+                      <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch06/src/ch06/stacks/StackLinkedList.java">Linked Implementation</a></li>
+                 </ul>
             </td>
 </tr>
 
