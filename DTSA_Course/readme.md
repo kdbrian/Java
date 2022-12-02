@@ -58,29 +58,32 @@
             </td>
 </tr>
 
-<tr>
+<!-- <tr>
             <td>Linear Linked List</td>
             <td>ch03</td>
             <td>
                 <a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch03/src/ch03/linkedlist/LinkedList.java">File</a>
             </td>
 </tr>
-
+ -->
 <tr>
-            <td>Circular Linked List</td>
+            <td>Linked List</td>
             <td>ch04</td>
             <td>
-                <a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch04/src/ch04/circularlinkedlist/CircularLinkedList.java">File</a>
+                 <ul>
+                      <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch03/src/ch03/linkedlist/LinkedList.java">Linear Linked List</a></li>
+                      <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch05/src/ch05/DoublyLinkedList.java">DoublyLinkedList</a></li>
+                 </ul>
             </td>
 </tr>
 
-<tr>
+<!-- <tr>
             <td>Doubly Linked List</td>
             <td>ch05</td>
             <td>
                 <a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch05/src/ch05/DoublyLinkedList.java">File</a>
             </td>
-</tr>
+</tr> -->
 
 <tr>
             <td>Stacks</td>
