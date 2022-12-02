@@ -17,13 +17,18 @@
 <tr>
             <td>Recursion</td>
             <td>ch01</td>
-            <td></td>
+            <td> <ul><li><a href="https://github.com/La-Mello/Java/tree/master/DTSA_Course/ch01/src/ch01/typeofrecursion">Types</a></li></ul></td>
 </tr>
         
 <tr>
             <td>Types of recursion</td>
             <td>ch01</td>
-            <td><a href=""></a>
+            <td>
+               <ul>
+               <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch01/src/ch01/typeofrecursion/HeadRecursion.java">Head Recursion</a></li>
+               <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch01/src/ch01/typeofrecursion/TreeRecursion.java">Tree Recursion</a></li>
+               <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch01/src/ch01/typeofrecursion/TailRecursion.java">Tail Recursion</a></li>
+               <ul>
             </td>
 </tr>
 
