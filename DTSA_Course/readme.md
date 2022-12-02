@@ -98,9 +98,9 @@
             <td>ch07</td>
             <td>
                 <ul>
-                    <li><a href="">Arrays Implementation</a></li>
-                    <li><a href="">Linked Implementation</a></li>
-                    <li><a href="">Doubly Queue Implementation</a></li>
+                    <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch07/src/ch07/queue/QueueArrays.java">Arrays Implementation</a></li>
+                    <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch07/src/ch07/queue/QueueLinkedList.java">Linked Implementation</a></li>
+                    <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch07/src/ch07/queue/DoubleQueue.java">Doubly Queue Implementation</a></li>
                 </ul>
             </td>
 </tr>
