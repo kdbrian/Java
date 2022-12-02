@@ -37,12 +37,12 @@
             <td>ch02</td>
             <td>
                 <ul>
-                    <li><a href="">Bubble sort</a></li>
-                    <li><a href="">Insertion sort</a></li>
-                    <li><a href="">Merge sort</a></li>
-                    <li><a href="">Quick sort</a></li>
-                    <li><a href="">Selection sort</a></li>
-                    <li><a href="">Shell sort</a></li>
+                    <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch02/src/sortingalgorithms/BubbleSort.java">Bubble sort</a></li>
+                    <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch02/src/sortingalgorithms/InsertionSort.java">Insertion sort</a></li>
+                    <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch02/src/sortingalgorithms/MergeSort.java">Merge sort</a></li>
+                    <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch02/src/sortingalgorithms/QuickSort.java">Quick sort</a></li>
+                    <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch02/src/sortingalgorithms/SelectionSort.java">Selection sort</a></li>
+                    <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch02/src/sortingalgorithms/ShellSort.java">Shell sort</a></li>
                 </ul>
             </td>
 </tr>
