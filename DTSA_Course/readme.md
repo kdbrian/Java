@@ -52,8 +52,8 @@
             <td>ch02</td>
             <td>
                 <ul>
-                    <li><a href="">Binary Search</a></li>
-                    <li><a href="">Linear Search</a></li>
+                    <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch02/src/ch02/searchingalgorithms/BinarySearch.java">Binary Search</a></li>
+                    <li><a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch02/src/ch02/searchingalgorithms/LinearSearch.java">Linear Search</a></li>
                 </ul>
             </td>
 </tr>
