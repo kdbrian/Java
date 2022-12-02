@@ -59,10 +59,10 @@
 </tr>
 
 <tr>
-            <td>Linked List</td>
+            <td>Linear Linked List</td>
             <td>ch03</td>
             <td>
-                <a href=""></a>
+                <a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch03/src/ch03/linkedlist/LinkedList.java">File</a>
             </td>
 </tr>
 
