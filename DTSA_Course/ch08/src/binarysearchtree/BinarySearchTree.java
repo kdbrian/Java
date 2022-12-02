@@ -329,4 +329,17 @@ public class BinarySearchTree {
 		return 0;
 		
 	}
+	
+	public boolean insertAll(int nums[]) {
+		if(nums.length <= 0)
+			return false;
+		
+		//setting the root of the tree
+		this.setRoot(this.rinsert(null, nums[0]));
+		
+		for(int i=1;i<nums.length;i++) {
+			rinsert(this.getRoot(), nums[i]);
+		}
+		return true;
+	}
 }
