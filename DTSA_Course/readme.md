@@ -113,9 +113,20 @@
             <td>ch08</td>
             <td>
                 <ul>
-                    <a href="">Binary Search trees</a>
+                    <a href="https://github.com/La-Mello/Java/blob/master/DTSA_Course/ch08/src/binarysearchtree/BinarySearchTree.java">Binary Search trees</a>
                 </ul>
             </td>
 </tr>
+
+<tr>
+            <td></td>
+            <td></td>
+            <td></td>
+</tr>
+
+<tr>
+            <td colspan="3">Copy Right &copy; All rights Reserved</td>
+            
+</tr>                 
 </tbody>
 </table>
