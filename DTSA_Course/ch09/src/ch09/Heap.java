@@ -83,7 +83,7 @@ public class Heap {
 	 */
 	public void display() {
 		for (int i = 0; i < Data.length; i++) {
-			System.out.println(Data[i]+" ");
+			System.out.print(Data[i]+" ");
 		}
 		
 		System.out.println();
