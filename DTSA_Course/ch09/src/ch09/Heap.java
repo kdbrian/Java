@@ -88,12 +88,4 @@ public class Heap {
 		
 		System.out.println();
 	}
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 }
