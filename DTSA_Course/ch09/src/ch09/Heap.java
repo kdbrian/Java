@@ -12,7 +12,7 @@ public class Heap {
 	
 	
 	private int maxSize;//the maximum size the heap can accumulate
-	int Data[];//the data to be stored in the heap
+	private int Data[];//the data to be stored in the heap
 	private int csize;//represents the current size of the array
 
 	
